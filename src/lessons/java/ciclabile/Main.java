@@ -5,13 +5,28 @@ public class Main {
         System.out.println("java-ciclabile");
         int[] primoArray = { 4, 5, 6 };
         ArrayOfInt listaDiNumeri = new ArrayOfInt(primoArray);
+        // listaDiNumeri.getArray();
+        // int[] array = { 3, 4, 6, 7, 8, 8 };
+        // listaDiNumeri.setArray(array);
+        // listaDiNumeri.getArray();
+        // int[] nuovoArray = { 93, 888, 9, 73, 14, 58 };
+        // listaDiNumeri.setArray(nuovoArray);
+        // listaDiNumeri.getArray();
+        // listaDiNumeri.addNum(999);
         listaDiNumeri.getArray();
-        int[] array = { 3, 4, 6, 7, 8, 8 };
-        listaDiNumeri.setArray(array);
+        System.out.println(listaDiNumeri.getNext());
+        System.out.println(listaDiNumeri.getNext());
+        System.out.println(listaDiNumeri.hasNumYet());
+        System.out.println(listaDiNumeri.getNext());
+        System.out.println(listaDiNumeri.hasNumYet());
+        listaDiNumeri.addNum(999);
+        listaDiNumeri.addNum(888);
+        listaDiNumeri.addNum(777);
         listaDiNumeri.getArray();
-        int[] nuovoArray = { 93, 888, 9, 73, 14, 58 };
-        listaDiNumeri.setArray(nuovoArray);
-        listaDiNumeri.getArray();
+        System.out.println(listaDiNumeri.hasNumYet());
+        System.out.println(listaDiNumeri.getNext());
+        System.out.println(listaDiNumeri.getNext());
+        System.out.println(listaDiNumeri.hasNumYet());
 
     }
 }
